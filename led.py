@@ -7,7 +7,7 @@ GPIO.setwarnings(False)
 rdeca = 18
 stop = False
 
-while stop = False:
+while stop == False:
     GPIO.setup(rdeca,GPIO.OUT)
     print ("LED on")
     GPIO.output(rdeca,GPIO.HIGH)
